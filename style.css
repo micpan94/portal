@@ -102,7 +102,7 @@ section{
 
 .cards{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
     padding: 20px;
     grid-gap: 40px;
 }
@@ -111,6 +111,12 @@ section{
     border-radius: 20px;
     box-shadow: 0 0 30px rgba(0,0,0,0.18);
 }
+.card:hover{
+  background-color: #65628c;
+   border-radius: 40px;
+   transition: .6s;
+}
+
 .container{
     position: relative;
     clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
